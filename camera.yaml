@@ -1,0 +1,33 @@
+camera:
+  device_index: 0
+  resolution:
+    width: 1280
+    height: 720
+  fps_estimate: 19.81530317743611
+pattern:
+  type: chessboard
+  inner_corners:
+    cols: 9
+    rows: 6
+  square_size: 0.024
+  unit: meters
+calibration:
+  camera_matrix:
+  - - 728.7726573642881
+    - 0.0
+    - 642.6711105905503
+  - - 0.0
+    - 728.3402112935404
+    - 358.6868275525008
+  - - 0.0
+    - 0.0
+    - 1.0
+  dist_coeffs:
+  - - -0.029706387436395025
+    - -0.01126294517239579
+    - 3.3788254064937765e-05
+    - 0.0011037319384095935
+    - 0.01092138605828054
+  rms: 1.022700969433066
+  mean_reprojection_error_px: 1.0227004912293358
+  frames_used: 40
